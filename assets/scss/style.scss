@@ -1,0 +1,18 @@
+@import "common";
+@import "header";
+@import "subfolder/inner";
+$color: red;
+$background: #ffffff;
+body {
+  display: flex;
+  order: 1;
+
+  margin: 0;
+
+  transition: 1s;
+
+  background-color: $background;
+  h1 {
+    color: $color;
+  }
+}
